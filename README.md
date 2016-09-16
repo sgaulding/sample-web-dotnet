@@ -9,18 +9,23 @@ git clone https://github.com/TokenEx/sample-web-dotnet.git
 ````
 
  - Open the project in Visual Studio.
+
+
+ - Update web.config with your TokenEx credentials and run.
+
  
  ````
 <add key="TokenEXID" value="{{YourTokenExID}}" />
 <add key="APIKey" value="{{YourAPIKey}}" />
 ````
 
- - Update web.config with your TokenEx credentials and run.
-
-
 ## Examples
 
-![Browser Based Encryption](BBEScreenShot.png?raw=true "Browser Based Encryption") 
+### BBE
+
+![Browser Based Encryption](BBEScreenShot.png?raw=true "Browser Based Encryption")
+
+### Iframe
 
 ![Iframe](IframeScreenShot.png?raw=true "Iframe")
 
