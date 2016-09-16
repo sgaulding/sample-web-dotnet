@@ -9,6 +9,11 @@ git clone https://github.com/TokenEx/sample-web-dotnet.git
 ````
 
  - Open the project in Visual Studio.
+ 
+ ````
+<add key="TokenEXID" value="{{YourTokenExID}}" />
+<add key="APIKey" value="{{YourAPIKey}}" />
+````
 
  - Update web.config with your TokenEx credentials and run.
 
