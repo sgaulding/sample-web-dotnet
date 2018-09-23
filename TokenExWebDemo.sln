@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenExWebDemo", "TokenExWebDemo\TokenExWebDemo.csproj", "{9B8148B3-B144-4CF3-8FB7-C851991A248B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenEx.Library.NetStandard", "TokenEx.Library.NetStandard\TokenEx.Library.NetStandard.csproj", "{4CC12873-79C7-4FC2-B964-AB252CD4D0B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{F6F5F6AE-273E-4A21-A33E-42E2AA8B4C33}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +22,15 @@ Global
 		{9B8148B3-B144-4CF3-8FB7-C851991A248B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B8148B3-B144-4CF3-8FB7-C851991A248B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B8148B3-B144-4CF3-8FB7-C851991A248B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC12873-79C7-4FC2-B964-AB252CD4D0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC12873-79C7-4FC2-B964-AB252CD4D0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC12873-79C7-4FC2-B964-AB252CD4D0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC12873-79C7-4FC2-B964-AB252CD4D0B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB415DFE-6925-4D62-8EEA-1F0CFC531978}
 	EndGlobalSection
 EndGlobal
